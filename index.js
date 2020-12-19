@@ -1,8 +1,8 @@
 whatDisplay('block', 'none', 'none', 'none', 'none', 'none');
 
-var outerDiv = document.getElementsByClassName("dice")[0];
+const outerDiv = document.getElementsByClassName("dice")[0];
 
-outerDiv.addEventListener('click', function (event) {
+outerDiv.addEventListener('click', function(event) {
     // get random numbers between 1 to 6
     var randomNumber = Math.floor((Math.random() * 6) + 1);
     console.log("randomNumber: " + randomNumber);
